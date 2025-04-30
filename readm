@@ -1,0 +1,27 @@
+# Projeto de E-Commerce na Nuvem
+
+## Descrição
+Este projeto demonstra como armazenar e gerenciar dados de um e-commerce utilizando os serviços do Azure, como o **Azure App Service** e o **Azure Container Apps**. O objetivo principal é criar uma aplicação escalável e eficiente, hospedada na nuvem.
+
+## Tecnologias Usadas
+- **Azure App Service**: Plataforma para hospedar aplicações web.
+- **Azure Container Apps**: Serviço de execução de contêineres na nuvem.
+- **Azure Container Registry (ACR)**: Armazenamento e gerenciamento de imagens de contêiner.
+- **CI/CD**: Integração contínua e entrega contínua.
+
+## Passos Seguidos
+1. Criação de um aplicativo no **Azure App Service**.
+2. Configuração de contêineres no **Azure Container Apps** para hospedar os microsserviços.
+3. Armazenamento e gerenciamento das imagens de contêiner no **Azure Container Registry**.
+
+## Screenshots
+(Adicione prints da sua implementação, se possível)
+
+## Insights
+- A escalabilidade automática do **Azure App Service** garante que a aplicação se ajuste à demanda de tráfego.
+- O uso do **Azure Container Apps** simplifica a orquestração de contêineres, tornando o processo de escalabilidade ainda mais eficiente.
+- A integração de **CI/CD** permite que novas versões da aplicação sejam implantadas automaticamente, sem interrupção no serviço.
+
+## Possíveis Melhorias
+- Implementar autenticação de usuários utilizando o **Azure Active Directory**.
+- Adicionar banco de dados em nuvem, como o **Azure SQL Database**, para armazenar dados dos produtos e transações.
